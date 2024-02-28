@@ -14,8 +14,10 @@ class GeneradorTest {
         generador = new Generador();
     }
 
+
     @Test
     void generadorletraDNI() {
+        //probando que el metodo genera la salida correctamente
         assertEquals("L",generador.generadorletraDNI(51101373));
     }
 }
